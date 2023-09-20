@@ -2,7 +2,6 @@ class Employee{
  float salary=800;  
 }  
 
-
 class Programmer extends Employee{  
  int bonus=100;  
  public static void main(String args[]){  
