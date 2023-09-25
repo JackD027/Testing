@@ -1,0 +1,3 @@
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8086/JDBCProject/getProduct?searchName\=Tshirt|*|http\://localhost\:8086/JDBCProject/|*|http\://localhost\:8086/JDBCProject/getProduct?searchName\=T|*|http\://localhost\:8086/JDBCProject/getProduct?searchName\=Tshirty|*|http\://localhost\:8086/JDBCProject/index.html|*|http\://localhost\:8086/JDBCProject/getProduct?searchTitle\=Tshirt|*|http\://localhost\:8086/JDBCProject/getProducts|*|http\://localhost\:8086/GetProducts|*|http\://localhost\:8086/JDBCProject/GetProducts|*|
