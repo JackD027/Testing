@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;jdbc&apos; to &apos;Assistedpractice/src&apos;&#x0A;- Original project: &apos;JDBC Project&apos;&#x0A;- Destination element: &apos;Assistedpractice/src&apos;&#x0A;- Original element: &apos;JDBC Project/src/jdbc&apos;" description="Copy package" destination="=Assistedpractice/src" element1="/src&lt;jdbc" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1695665575418" version="1.0"/>
-</session>

@@ -1,9 +1,0 @@
-INDEX VERSION 1.4+/home/shubhendushekha/eclipse-workspace/JDBCProject/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3772634335.index
-2563947732.index
-3364879133.index
-1299875063.index
-4127622601.index
-3772634335.index
-3150601956.index
-3761283209.index
