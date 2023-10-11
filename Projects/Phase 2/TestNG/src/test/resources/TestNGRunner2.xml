@@ -1,0 +1,23 @@
+<suite name="testSuite2" verbose="1">
+	<test name="TestCycle1">
+		<classes>
+			<class name="com.app.TestNG.TestAnnotation">
+				<methods>
+					<include name="Login"></include>
+				</methods>
+			</class>
+			<class name="com.app.TestNG.BeforeAfterMethodAnnotation">
+				<methods>
+					<include name="Logout"></include>
+				</methods>
+			</class>
+			<class name="com.app.TestNG.BeforeAfterClassAnnotation">
+				<methods>
+					<!-- Instead of include we can use exclude <include name="GetTitle"></include> -->
+					<exclude name="Login"></exclude>
+					<exclude name="Logout"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

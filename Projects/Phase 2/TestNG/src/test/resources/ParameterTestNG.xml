@@ -1,0 +1,21 @@
+<suite name="testsuite2" verbose="1">
+
+	<test name="TestCycle1">
+		<parameter name="username" value="admin" />
+		<parameter name="password" value="admin2123" />
+		<classes>
+			<class name="com.DataDrivenTest.Parameter">
+			</class>
+		</classes>
+	</test>
+
+	<test name="TestCycle2">
+		<parameter name="username" value="shubham" />
+		<parameter name="password" value="shubham2123" />
+		<classes>
+			<class name="com.DataDrivenTest.Parameter">
+			</class>
+		</classes>
+	</test>
+
+</suite>
