@@ -1,0 +1,11 @@
+<suite name="Test Env" verbose="1">
+	<test name="TestRedBusHomeinChrome">
+		<parameter name="Browser" value="Chrome"/>
+		<classes>
+			<class name="com.redbus.TestPages.TestHomePage"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
+
