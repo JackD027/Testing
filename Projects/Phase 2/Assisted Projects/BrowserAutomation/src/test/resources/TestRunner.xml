@@ -1,0 +1,7 @@
+<suite name="JUnitTestSuite" verbose="1">
+    <test name="JUnitTests">
+        <classes>
+            <class name="com.browser.automation.TestBrowserAutomation"></class>
+        </classes>
+    </test>
+</suite>
