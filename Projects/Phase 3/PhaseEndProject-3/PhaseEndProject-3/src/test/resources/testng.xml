@@ -1,0 +1,13 @@
+<suite name="suite001">
+<test name="test001">
+
+<classes>
+<class name="CourseEnd.Assignment001Demo"></class>
+<class name="CourseEnd.Assignment002Demo"></class>
+<class name="CourseEnd.Assignment003Demo"></class>
+<class name="CourseEnd.Assignment004Demo"></class>
+<class name="CourseEnd.Assignment005Demo"></class>
+<class name="CourseEnd.Assignment006Demo"></class>
+</classes>
+</test>
+</suite>
