@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "70746137-3d13-4cf7-9c6c-2b67ebdb6f3a",
+		"name": "HTTPS Methods NewMan",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30899657"
+	},
+	"item": [
+		{
+			"name": "Patch-Method Posts",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"body\": \"updated est rerum tempore vitae\\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\\nqui aperiam non debitis possimus qui neque nisi nulla\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/2",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get-Method Posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Head-Method",
+			"request": {
+				"method": "HEAD",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "PMAK-6544af87e18af40a1c36eec7-e637d55a1ee042ea6dc1c93bfd28b159fe",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.postman.com/workspaces",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"workspaces"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Options-Method",
+			"request": {
+				"method": "OPTIONS",
+				"header": [
+					{
+						"key": "X-API-Key",
+						"value": "PMAK-6544af87e18af40a1c36eec7-e637d55a1ee042ea6dc1c93bfd28b159fe",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.postman.com/workspaces",
+					"protocol": "https",
+					"host": [
+						"api",
+						"postman",
+						"com"
+					],
+					"path": [
+						"workspaces"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
