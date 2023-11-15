@@ -14,7 +14,7 @@ public class Script008GitHubBearerToken {
 						.given()
 						.baseUri("https://api.github.com")
 						.basePath("/user/repos")
-						.headers("Authorization","Bearer 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")
+						.headers("Authorization","")
 						.when().get()
 						.then()
 						.extract().response();
@@ -30,7 +30,7 @@ public class Script008GitHubBearerToken {
 						.given()
 						.baseUri("https://api.github.com")
 						.basePath("/repos/JackD027/Testing")
-						.headers("Authorization","Bearer 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")
+						.headers("Authorization","")
 						.when().get()
 						.then()
 						.extract().response();
