@@ -16,7 +16,7 @@ public class Script006PostmanAPIKey {
 		.given()
 		.baseUri("https://api.postman.com")
 		.basePath("/workspaces")
-		.headers("X-Api-Key","PMAK-6544af87e18af40a1c36eec7-d9078045d974c73812c994a13777928346")
+		.headers("X-Api-Key","")
 		.when().get()
 		.then()
 		.statusCode(200);
@@ -32,7 +32,7 @@ public class Script006PostmanAPIKey {
 						.given()
 						.baseUri("https://api.postman.com")
 						.basePath("/workspaces")
-						.headers("X-Api-Key","PMAK-6544af87e18af40a1c36eec7-d9078045d974c73812c994a13777928346")
+						.headers("X-Api-Key","")
 						.when().get()
 						.then()
 						.extract().path("workspaces[1].name");
@@ -48,7 +48,7 @@ public class Script006PostmanAPIKey {
 						.given()
 						.baseUri("https://api.postman.com")
 						.basePath("/workspaces")
-						.headers("X-Api-Key","PMAK-6544af87e18af40a1c36eec7-d9078045d974c73812c994a13777928346")
+						.headers("X-Api-Key","")
 						.when().get()
 						.then()
 						.extract().response();
